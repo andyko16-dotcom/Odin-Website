@@ -1,0 +1,22 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+}
+
+.headerlogo {
+    font-size: 24px;
+    
+}
+
+.subheader {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf9;
+}
+
