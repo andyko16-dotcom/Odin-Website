@@ -18,21 +18,35 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
 }
 
-.headerlogo {
-    font-size: 24px;
-    
-}
-
-.headerlogo {
+.headernlogo {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 500px;
 }
 
+.headernlogo > .headerlogo {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
 
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    align-self: center;
+}
 
 .subheader {
     font-size: 48px;
@@ -42,9 +56,38 @@ body {
     margin: 0;
 }
 
-.subheader {
-    align-self: center;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
+.description {
+    display: flex;
+    max-width: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.description > .signup {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 16px 8px 16px;
+    border-style: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+.signup:hover {
+    background: white;
+    color: black;
+}
+
+
+
 
 /**/
 
