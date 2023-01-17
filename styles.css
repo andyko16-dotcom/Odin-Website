@@ -13,6 +13,7 @@ body {
     background-color: #1f2937;
     color: white;
     margin: 0;
+    flex-shrink: 0;
 }
 
 .header {
@@ -30,6 +31,7 @@ body {
 
 .headernlogo > .headerlogo {
     font-size: 24px;
+    font-weight: bolder;
     display: flex;
     align-items: center;
 }
@@ -49,8 +51,7 @@ a {
 }
 
 .subheader {
-    font-size: 48px;
-    font-weight: bolder;
+
     color: #f9faf9;
     background-color: #1f2937;
     margin: 0;
@@ -64,17 +65,29 @@ a {
 }
 
 .description {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.description {
     display: flex;
+    flex-direction: column;
     max-width: 500px;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
+}
+
+p {
+    font-size: 18px;
+    font-weight: lighter;
 }
 
 .description > .signup {
     background-color: #3882f6;
     color: white;
     border-radius: 8px;
-    padding: 8px 16px 8px 16px;
+    padding: 8px 20px 8px 20px;
     border-style: none;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -86,47 +99,166 @@ a {
     color: black;
 }
 
-
-
-
 /**/
+
+
 
 
 /**/
 .bodyone {
     display: flex;
     justify-content: center;
-    
+    flex-direction: column;
+    align-items: center;
 
+}
+
+.description {
+    padding: 25x;
+    margin: 40px;
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-weight: bolder;
+
+}
+
+
+.bodydescription {
+    flex-wrap: wrap;
+    max-width: 150px;
+    color: #4f5155
+}
+
+
+.box {
+    display: flex;
+    padding: 25px 25px 25px 15px;
+    margin: 15px;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    
 }
 
 .boxone,
 .boxtwo,
 .boxthree,
 .boxfour {
-    width: 60px;
-    padding: 60px;
-    border: 10px;
+    width: 100px;
+    height: 100px;
+    padding: 70px;
+    border: 5px;
     border-style: solid;
-    border-color: blue;
+    border-color: #3882f6;
     margin: 16px;
+    border-radius: 16px;
+
 }
 
-/**/
-
-/**/
-.bodytwo {
-    background-color: #e5e7eb;
-    font-size: 36px;
-    font-weight: light italic;
-    color: #1f2937;
-    padding: 100px;
-}
-
-.bodytwo {
+.onebox,
+.twobox,
+.threebox,
+.fourbox {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
+
+/**/
+
+/**/
+.twobody {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    padding: 200px;
+}
+
+.twobody {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.author {
+    align-self: flex-end;
+}
+
+
+/**/
+
+/**/
+
+.bigbutton {
+    padding: 100px;
+    margin: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    flex-shrink: 0;
+
+}
+
+.bigbutton {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bigbutton > .container {
+    background-color: #2759a9;
+    padding: 50px 200px 50px 200px; 
+    border-radius: 16px;
+    gap: 250px;
+}
+
+.buttondescription {
+    color: white;
+    font-weight: bolder;
+    font-size: 24px
+}
+
+.smallerdescription {
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.container > .lastbutton {
+    padding: 8px 30px 8px 30px;
+    font-size: 15px;
+    border: 1px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: white;
+    background-color: #2759a9;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.lastbutton:hover {
+    background: white;
+    color: black
+}
+
+/**/
+
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+   
+    padding: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
 
 /**/
