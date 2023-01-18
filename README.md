@@ -26,3 +26,6 @@ total estimated time: 21 hours to complete a landing page.
 Conclusion: 
 I still have a lot of things to work on when it comes to making containers in html and styling with flex on css. I feel as though I am not taking full advantage of display:flex and still relying on positioning containers with padding and margin. Would things have been different if i used display: block, inline block, etc. also? Should i have spent more time on creating this website while teaching myself more buttons styles, messing with background img with caption ontop of background img, and maybe play with js? these are questions i wonder and remembr but i feel as though i cant waste my time on. 
 
+after 15 mins of looking at other people's landing page:
+I should have done more...
+
